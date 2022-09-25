@@ -1,0 +1,16 @@
+Created on Sun Sep 25 12:51:59 2022
+
+@author: Dileep and Siva Prasad
+
+Write a Python program to count the number of strings for which length is greater than 3
+Sample List : ['SQL', 'Adi', 'Python', 'Chandu','Azeez']
+
+"""
+def cntstrlist(lst):
+    cnt=0
+    for le in lst:
+        if len(le)>3:
+            cnt=cnt+1
+    print(cnt)
+spllst=['SQL', 'Adi', 'Python', 'Chandu','Azeez']     
+cntstrlist(spllst)
